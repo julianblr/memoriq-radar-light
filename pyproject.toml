@@ -4,4 +4,9 @@ version = "0.1.0"
 description = ""
 authors = ["Your Name <you@example.com>"]
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "google-generativeai==0.8.3",
+    "pandas==2.2.3",
+    "plotly==5.24.1",
+    "streamlit==1.40.2",
+]
